@@ -221,9 +221,9 @@ section .title::after{
     width: 45%;
 }
 .about .about-content .left img{
-    height: auto;
+    height: 400px;
     width: 400px;
-/*     object-fit: cover; */
+ object-fit: cover; 
     border-radius: 6px;
 }
 .about .about-content .right{
@@ -553,6 +553,10 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+.about .about-content .left img{
+        height: 421px;
+        width: 290px;
+    }
 
 
 /* responsive media query start */
