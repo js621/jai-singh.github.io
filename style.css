@@ -154,7 +154,10 @@ section .title::after{
 }
 
 .achi ul {
-    text-align : center;
+    display: flex;
+/*     flex-wrap: wrap; */
+    align-items: center;
+/*     text-align : center; */
 }
 .scroll-up-btn.show{
     bottom: 30px;
